@@ -1,0 +1,14 @@
+#wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgb(255, 217, 147);
+  height: 100vh;
+}
+
+#result img {
+  object-fit: cover;
+}
+
+button {
+  background-color: rgb(255, 166, 0) !important;
+}
