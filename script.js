@@ -8,7 +8,7 @@ const catGenerator = () => {
     .then((data) => {
       console.log(data);
       const url = data[0].url;
-      const img = "<img src='" + url + "' height=250px width=250px/>";
+      const img = "<img class='img-fluid p-3' src='" + url + "'/>";
       document.getElementById('result').innerHTML = img;
     });
 };

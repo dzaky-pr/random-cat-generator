@@ -2,11 +2,17 @@
   max-width: 500px;
   margin: 0 auto;
   background-color: rgb(255, 217, 147);
-  height: 100%;
+  height: 100vh;
+}
+
+#result {
+  display: flex;
 }
 
 #result img {
   object-fit: cover;
+  height: auto;
+  width: 100%;
 }
 
 button {
